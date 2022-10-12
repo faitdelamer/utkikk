@@ -4,8 +4,11 @@ Dette er en prosjektidé for å løse et case med å visualisere data fra en CSV
 
 Utkikk er en webapp som er tiltenkt å gjøre en hel del enkle analyser på datasett med hjelp av python-biblioteket Pandas, GeoPandas og Matplotlib. Informasjonen fra analysen presenteres for en bruker gjennom nettleseren i en side bygget med ReactJS.
 
-Foreløpig er søk implementert. Sortering og filtrering er påbegynt men er enn så lenge ikke implementert.
-Det gjenstår en god del før programmet når en eventuell MVP, inkludert "rensking" av kode og kommentarer.
+Foreløpig er søk implementert, og det gjenstår en del arbeid for å få til flere analysemuligheter. Sortering og filtrering er påbegynt men er enn så lenge ikke implementert.
+
+Det gjenstår også en del "rensking" av kode og kommentarer før programmet når en eventuell MVP.
+
+Programmet kommer nok til å gjøre noen ting som andre programmer som PowerBI og Tableu gjør bedre, men dette vil ha et enklere brukergrensesnitt og skal bare vise litt hvordan jeg jobber med problemløsning.
 
 ## Bygge programmet
 Koden krever at systemet har installert Python3 (usikker hvilken versjon som er nødvendig, ble programmert i 3.10).
