@@ -11,7 +11,7 @@ Det gjenstår en god del før programmet når en eventuell MVP, inkludert "rensk
 Koden krever at systemet har installert Python3 (usikker hvilken versjon som er nødvendig, ble programmert i 3.10).
 Av python-pakker trenger man flask, flask_cors (for å sende forespørsler mellom frontend og backend, dårlig løsning og må fikses før produksjon), pandas og json (kommer vel som standard men brukes eksplisitt i koden), samt pakken waitress for å kjøre backend-scriptet. På sikt trengs også matplotlib (for å lage grafikk) og geopandas (for å gjøre analyser av posisjonsdata).
 
-For å kjøre frontend trengs nodeJS (npm/npx) og yarn for å kjøre frontend-serveren slik den ligger nå. Tanken er å tjene frontend via nginx i produksjon, men så langt har jeg ikke kommet ennå.
+For å kjøre frontend trengs nodeJS (npm/npx) og yarn for å kjøre frontend-serveren slik den ligger nå. Tanken er å tjene frontend via nginx i produksjon, men så langt har jeg ikke kommet ennå. For å skaffe nødvendige pakker brukes koden ***npm install*** og kjøres i utviklingsmodus med koden ***yarn start***. Produksjonsfiler bygges med ***yarn build***, og filene i mappen 'utkikk/build/' skal kunne tjenes videre.
 
 Når applikasjonen er ferdig utviklet i MVP er tanken å få programmene inn i docker-containere sånn at det skal være enkelt å kjøre opp og ned tjenestene med riktig konfigurering.
 
