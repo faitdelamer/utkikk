@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 95vh;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.sokefelt {
+  width: 50em;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  order: 1;
+}
+.right {
+  order: 2;
+}
+
+.pgButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pgButton {
+  flex-basis: auto;
+  height: 1.5em;
+  min-width: 1.5em;
+  border-radius: 0.1em;
+  margin: 0.2em;
+  padding: 0.1em;
+  text-align: center;
+  font-size: 20px;
+  color:black;
+  background-color: rgb(219, 219, 219);
+  flood-color: bisque;
+  transition:0.2s;
+}
+.pgButton:hover {
+  background-color: rgb(175, 175, 175);
+}
+
+.pgButton:focus {
+  background-color: #18191b;
+  border:white;
+  color:azure
+}

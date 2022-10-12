@@ -6,7 +6,7 @@ Utkikk er en webapp som er tiltenkt å gjøre en hel del enkle analyser på data
 
 Foreløpig er søk implementert. Sortering og filtrering er påbegynt men er enn så lenge ikke implementert
 
-Koden er kjørbar og krever at systemet har installert Python3 (usikker hvilken versjon som er nødvendig, ble programmert i 3.10) for å kjøre analyse-API'et, og nodeJS ved npm for å kjøre frontend-serveren.
+Koden er kjørbar og krever at systemet har installert Python3 (usikker hvilken versjon som er nødvendig, ble programmert i 3.10) for å kjøre analyse-API'et, nodeJS og yarn for å kjøre frontend-serveren. Det kan sikkert hostes på andre måter, men det er sånn jeg har kjørt det i utviklingen
 
 Ambisjonen er å få programmene inn i docker-containere sånn at det skal være enkelt å kjøre opp og ned tjenestene med riktig konfigurering.
 
